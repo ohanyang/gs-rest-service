@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Clone repo") {
             steps {
-                bat "git clone https://github.com/terry-fee/gs-rest-service"
+                bat "git clone https://github.com/ohanyang/gs-rest-service"
             }
         }
 		stage("Create properties file") {
